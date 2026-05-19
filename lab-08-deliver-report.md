@@ -23,6 +23,15 @@ You should have, in `/workshop/state/`:
 
 The Quadero report template lives in the team-dynatrace scaffold: `/workshop/templates/reports/quadero-report-template.html` (with CSS sibling and `/workshop/scripts/generate_report.py`).
 
+### Workshop platform commands used in this lab
+
+This lab uses two workshop platform commands you have not seen in earlier labs:
+
+- `publish` - copies a built report to `/workshop/published/` so it shows up at your seat URL.
+- `workshop-export` - bundles the entire `/workshop/state/` directory into a downloadable zip.
+
+See the deelnemer-handleiding for the full command reference.
+
 ```bash
 cd /workshop/
 claude

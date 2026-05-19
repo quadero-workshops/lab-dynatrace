@@ -106,7 +106,7 @@ Have kernwaarden-bewaker review the RUM analysis. Specifically check:
 Key facts your analysis should land on:
 - The regression is entirely in `tulipa-checkout`, not `tulipa-storefront`
 - iOS Safari is hit hardest (INP P75 980 ms)
-- Address -> Payment drop-off is +11pp, matching the worst INP (1,240 ms)
+- The +11pp drop-off into the Payment step matches the worst INP measurement (1,240 ms on the `Continue to payment` button on `/checkout/address`) - users abandon while waiting for the click to register, before they ever reach the Payment page
 - The TypeError on 'price' is consistent with the new RSC hydration story
 
 ---

@@ -117,7 +117,12 @@ Have kernwaarden-bewaker review root-cause.md. Specifically:
 - `timeline-tests.md`
 - `root-cause.md`
 
+<details>
+<summary>Spoiler - most defensible conclusion (open only after your own RCA)</summary>
+
 The most defensible conclusion, given the simulated data, is that **the Q1 release shipped two compounding regressions** (new checkout's heavier per-request workload + payment-api connection pool sized for a different traffic shape) and that **a third independent issue** (iDEAL gateway degradation, possibly NL-sector-wide) overlapped them. Any answer that claims one neat root cause is probably oversimplifying.
+
+</details>
 
 ---
 
