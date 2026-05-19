@@ -1,6 +1,6 @@
 # RUM Snapshot - Tulipa Webshop
 
-Pretend export from the Dynatrace `dt.rum.user_action` table for the 7 days before kickoff (2026-04-27 to 2026-05-03). Compared against a baseline period 4 weeks earlier (pre-Q1 release: 2026-02-23 to 2026-03-01).
+Pretend export from the Dynatrace `dt.rum.user_action` table for the 7 days before kickoff (2026-04-27 to 2026-05-03). Compared against a pre-Q1 baseline week (2026-02-23 to 2026-03-01), about 9 weeks before the analysis window - chosen to predate the 2026-03-18 Q1 release rather than the standard 4-week comparison, which would otherwise fall after the regression.
 
 ## Overall Web Vitals (P75)
 

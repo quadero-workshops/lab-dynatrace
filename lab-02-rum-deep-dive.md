@@ -66,7 +66,7 @@ The Tulipa platform team must be able to reproduce these findings:
 Generate the DQL queries that would reproduce the RUM findings in /workshop/state/rum/analysis.md against the real Dynatrace tenant. One query per section heading. Save to /workshop/state/rum/queries.dql.
 
 Each query:
-- explicit time range (last 7d vs baseline 4 weeks earlier - use `from:` and `to:`)
+- explicit time range (last 7d 2026-04-27..2026-05-03 vs pre-Q1 baseline 2026-02-23..2026-03-01 - use `from:` and `to:`)
 - filter on application.name in ("tulipa-checkout", "tulipa-storefront") where relevant
 - explicit percentile (P75 - the Dynatrace default for Web Vitals)
 - one-line comment above each query explaining what it shows

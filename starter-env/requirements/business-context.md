@@ -22,15 +22,16 @@ Numbers Eva (CTO) gave during kickoff. Use these to translate technical findings
 - Lost annualised revenue: **~EUR 11M / year** if the regression persists
 - Lost margin: ~EUR 1.2M / year
 
-> Eva's number to remember: every 1% of conversion is worth ~EUR 4M / year at current AOV.
+> Eva's number to remember: every 0.1 percentage point of conversion is worth ~EUR 3.7M / year at current AOV. The 0.3pp regression annualises to ~EUR 11M.
+
+> Note on session denominator: the 6.5M monthly sessions includes browse-only and bounce traffic. Conversion is measured on the same denominator (sessions that *could* have converted, including bouncers), which is why FY 2025 revenue is lower than `sessions * conversion * AOV` would naively suggest - many sessions never reach the funnel.
 
 ## Black Friday context
 
 | Metric | Black Friday 2025 |
 |--------|-------------------|
 | Peak concurrent sessions | 92,000 |
-| Peak RPS to tulipa-storefront | 14,200 |
-| Peak RPS to checkout flow | 3,800 |
+| Peak RPS to tulipa-storefront | 14,200 (combined - checkout was still embedded in storefront pre-Q1, not separately measured) |
 | Multiplier vs daily peak | ~7x |
 | Revenue (single day) | EUR 4.1M |
 

@@ -12,7 +12,7 @@ Pretend Dynatrace host + container metrics for the 7 days before kickoff.
 | cart-api | 6 | 1 | 2 GB | 38% | 48% |
 | payment-api | 4 | 2 | 4 GB | 72% | 81% |
 
-> tulipa-checkout tasks are running hot. Either undersized or leaking. Note that pre-Q1 these tasks did not exist; sizing was inherited from storefront without re-evaluation.
+> tulipa-checkout tasks are running hot. Either undersized or leaking. Pre-Q1 these tasks did not exist; service launched 2026-03-18 at 6 tasks, scaled to 8 on 2026-04-15 (no measurable improvement). Sizing was inherited from storefront without re-evaluation.
 
 ## RDS PostgreSQL (db.r6g.xlarge)
 
@@ -67,7 +67,7 @@ Pretend Dynatrace host + container metrics for the 7 days before kickoff.
 
 ## Quarter-over-quarter changes
 
-- Compute: tulipa-checkout introduced Q1 with 8 tasks at 2vCPU/4GB - not re-sized since launch.
+- Compute: tulipa-checkout introduced Q1 with 6 tasks at 2vCPU/4GB; scaled to 8 tasks on 2026-04-15 in response to incident pressure (no measurable improvement, ticket INC-2952 retro).
 - RDS: no instance change; query volume up ~12% post-Q1.
 - Redis: no shard change; new checkout writes more cart fragments.
 - Lambda: no provisioned concurrency added despite +40% invocation growth post-Q1.
