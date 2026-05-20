@@ -1,12 +1,21 @@
 # Lab 07 - Capacity & Business Impact
 
-**Time:** 12-15 minutes
+**Time:** 25-45 minutes
 **Skills:** `/capacity-forecast` + `/business-impact`
 **Agents:** capacity-planner + business-impact-analist
 **Workflow:** capacity-review
 **Goal:** Translate the technical RCA into (a) a Black Friday readiness assessment and (b) a financial impact narrative the CTO can sign off on.
 
 ---
+
+## Prerequisites
+
+Lab 04 + Lab 06 deliverables should exist:
+```bash
+for f in rca/root-cause.md dependencies/spofs.md; do
+  ls /workshop/state/$f 2>/dev/null || echo "MISSING /workshop/state/$f"
+done
+```
 
 ## Setup
 

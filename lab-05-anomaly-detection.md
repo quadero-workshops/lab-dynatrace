@@ -1,12 +1,21 @@
 # Lab 05 - Anomaly Detection
 
-**Time:** 10-12 minutes
+**Time:** 25-45 minutes
 **Skill:** `/detecteer-anomalieen`
 **Agent:** anomalie-detector
 **Workflow:** performance-review (continued)
 **Goal:** Find silent degradation - patterns the dashboards missed because they crossed thresholds slowly.
 
 ---
+
+## Prerequisites
+
+Labs 02-04 deliverables should exist:
+```bash
+for d in rum response-times dependencies; do
+  ls /workshop/state/$d/ >/dev/null 2>&1 || echo "MISSING /workshop/state/$d/ - run Lab 02-04 first"
+done
+```
 
 ## Setup
 

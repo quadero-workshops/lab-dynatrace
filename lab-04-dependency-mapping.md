@@ -1,12 +1,19 @@
 # Lab 04 - Dependency Mapping
 
-**Time:** 10-12 minutes
+**Time:** 25-45 minutes
 **Skill:** `/map-dependencies`
 **Agent:** dependency-mapper
 **Workflow:** dependency-health-check
 **Goal:** Identify bottlenecks, single points of failure, and the cascade path of an iDEAL outage.
 
 ---
+
+## Prerequisites
+
+This lab can run after Lab 01 alone (no Lab 02/03 deliverables strictly required), but cross-references to prior analyses sharpen the SPOF discussion:
+```bash
+ls /workshop/state/engagement/engagement-plan.md 2>/dev/null || echo "Lab 01 not done - run it first"
+```
 
 ## Setup
 

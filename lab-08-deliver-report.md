@@ -1,12 +1,21 @@
 # Lab 08 - Deliver Report
 
-**Time:** 12-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/genereer-klantrapport`
 **Agents:** klant-communicator + rapporteur + kernwaarden-bewaker
 **Workflow:** rapportage-workflow
 **Goal:** Stitch the artefacts from Labs 01-07 into one client-ready final report using the Quadero template, then publish it.
 
 ---
+
+## Prerequisites
+
+All prior lab deliverables should exist:
+```bash
+for f in engagement/engagement-plan.md rum/analysis.md response-times/analysis.md dependencies/spofs.md anomalies/timeline.md rca/root-cause.md capacity/bf-readiness.md business-impact/narrative.md; do
+  ls /workshop/state/$f 2>/dev/null || echo "MISSING /workshop/state/$f"
+done
+```
 
 ## Setup
 

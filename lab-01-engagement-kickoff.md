@@ -1,6 +1,6 @@
 # Lab 01 - Engagement Kickoff
 
-**Time:** 8-12 minutes
+**Time:** 25-45 minutes
 **Skill:** (none - direct agent invocation)
 **Agents:** business-impact-analist + kernwaarden-bewaker
 **Workflow:** volledige-klantanalyse (planning phase)

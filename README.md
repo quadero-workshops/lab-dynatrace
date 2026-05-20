@@ -20,24 +20,26 @@ Tulipa is a Dutch client, the team-dynatrace skills are named in Dutch (e.g. `/a
 
 | # | Lab | Skill | Time |
 |---|-----|-------|------|
-| 01 | [Engagement Kickoff](lab-01-engagement-kickoff.md) | (no skill - business-impact-analist) | 8-12 min |
-| 02 | [RUM Deep Dive](lab-02-rum-deep-dive.md) | `/analyse-rum-data` | 10-15 min |
-| 03 | [Response Times](lab-03-response-times.md) | `/analyse-response-times` | 10-12 min |
-| 04 | [Dependency Mapping](lab-04-dependency-mapping.md) | `/map-dependencies` | 10-12 min |
-| 05 | [Anomaly Detection](lab-05-anomaly-detection.md) | `/detecteer-anomalieen` | 10-12 min |
-| 06 | [Root Cause Analysis](lab-06-root-cause.md) | `/root-cause-analyse` | 12-15 min |
-| 07 | [Capacity & Business Impact](lab-07-capacity-business-impact.md) | `/capacity-forecast` + `/business-impact` | 12-15 min |
-| 08 | [Deliver Report](lab-08-deliver-report.md) | `/genereer-klantrapport` | 12-15 min |
+| 01 | [Engagement Kickoff](lab-01-engagement-kickoff.md) | (no skill - business-impact-analist) | 25-45 min |
+| 02 | [RUM Deep Dive](lab-02-rum-deep-dive.md) | `/analyse-rum-data` | 25-45 min |
+| 03 | [Response Times](lab-03-response-times.md) | `/analyse-response-times` | 25-45 min |
+| 04 | [Dependency Mapping](lab-04-dependency-mapping.md) | `/map-dependencies` | 25-45 min |
+| 05 | [Anomaly Detection](lab-05-anomaly-detection.md) | `/detecteer-anomalieen` | 25-45 min |
+| 06 | [Root Cause Analysis](lab-06-root-cause.md) | `/root-cause-analyse` | 25-45 min |
+| 07 | [Capacity & Business Impact](lab-07-capacity-business-impact.md) | `/capacity-forecast` + `/business-impact` | 25-45 min |
+| 08 | [Deliver Report](lab-08-deliver-report.md) | `/genereer-klantrapport` | 25-45 min |
+
+> Time-estimates assume cursist runs the agent-loops, writes state-files and applies the kernwaarden-bewaker review. New trainers consistently land at the higher end; experienced trainers at the lower. Add ~10 min per lab if you are simultaneously running against a live Dynatrace tenant.
 
 ## Suggested Sequences
 
-**Quickstart (35-45 min):** 01 -> 02 -> 06 -> 08
+**Quickstart (~2 uur):** 01 -> 02 -> 06 -> 08
 
-**Frontend focus (45-60 min):** 01 -> 02 -> 05 -> 06 -> 08
+**Frontend focus (~3 uur):** 01 -> 02 -> 05 -> 06 -> 08
 
-**Backend focus (45-60 min):** 01 -> 03 -> 04 -> 06 -> 08
+**Backend focus (~3 uur):** 01 -> 03 -> 04 -> 06 -> 08
 
-**Full engagement (full day, with breaks):** 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 07 -> 08
+**Full engagement (6-8 uur, with breaks):** 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 07 -> 08
 
 ## Setup
 

@@ -1,12 +1,21 @@
 # Lab 06 - Root Cause Analysis
 
-**Time:** 12-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/root-cause-analyse`
 **Agent:** root-cause-detective
 **Workflow:** incident-analyse
 **Goal:** Consolidate findings from Labs 02-05 into one or two true root causes, with explicit hypotheses and counter-evidence.
 
 ---
+
+## Prerequisites
+
+Labs 02-05 deliverables should exist:
+```bash
+for f in rum/analysis.md response-times/analysis.md dependencies/spofs.md anomalies/timeline.md engagement/engagement-plan.md; do
+  ls /workshop/state/$f 2>/dev/null || echo "MISSING /workshop/state/$f"
+done
+```
 
 ## Setup
 

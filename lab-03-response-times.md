@@ -1,12 +1,19 @@
 # Lab 03 - Response Times
 
-**Time:** 10-12 minutes
+**Time:** 25-45 minutes
 **Skill:** `/analyse-response-times`
 **Agent:** performance-analist
 **Workflow:** performance-review
 **Goal:** Establish whether backend response times alone can explain the checkout regression, or whether the frontend findings (Lab 02) are dominant.
 
 ---
+
+## Prerequisites
+
+This lab can run after Lab 01 alone (no Lab 02 deliverables strictly required), but the framing in `/workshop/state/engagement/engagement-plan.md` improves quality:
+```bash
+ls /workshop/state/engagement/engagement-plan.md 2>/dev/null || echo "Lab 01 not done - run it first for the spine questions"
+```
 
 ## Setup
 

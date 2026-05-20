@@ -1,12 +1,19 @@
 # Lab 02 - RUM Deep Dive
 
-**Time:** 10-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/analyse-rum-data`
 **Agent:** frontend-specialist
 **Workflow:** frontend-deep-dive
 **Goal:** Explain what Real User Monitoring data says about the conversion regression, with evidence per device class and funnel step.
 
 ---
+
+## Prerequisites
+
+Lab 01's engagement plan should exist:
+```bash
+ls /workshop/state/engagement/engagement-plan.md 2>/dev/null || echo "MISSING - run Lab 01 first"
+```
 
 ## Setup
 
